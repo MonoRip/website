@@ -3,21 +3,21 @@
 
 <head>
     <title>mono</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="ras" />
-    <meta property="og:site_name" content="mono" />
-    <meta property="og:title" content="mono" />
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content="ras" />
-    <meta property="og:image" content="https://ewjwnfk.carrd.co/assets/images/card.jpg?v=6b410759" />
-    <meta property="og:image:type" content="image/jpeg" />
-    <meta property="og:image:width" content="1280" />
-    <meta property="og:image:height" content="800" />
-    <meta property="og:url" content="https://ewjwnfk.carrd.co" />
-    <meta property="twitter:card" content="summary_large_image" />
-    <link rel="canonical" href="https://ewjwnfk.carrd.co" />
-    <link href="https://fonts.googleapis.com/css?display=swap&family=Alata:400,400italic%7CDidact+Gothic:400,400italic" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="ras">
+    <meta property="og:site_name" content="mono">
+    <meta property="og:title" content="mono">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="ras">
+    <meta property="og:image" content="https://ewjwnfk.carrd.co/assets/images/card.jpg?v=44e9532a">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="800">
+    <meta property="og:url" content="https://ewjwnfk.carrd.co">
+    <meta property="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://ewjwnfk.carrd.co">
+    <link href="https://fonts.googleapis.com/css?display=swap&amp;family=Dela+Gothic+One:400,400italic%7CDidact+Gothic:400,400italic" rel="stylesheet" type="text/css">
     <style>
         html,
         body,
@@ -199,7 +199,7 @@
         }
 
         html {
-            font-size: 18pt;
+            font-size: 21pt;
         }
 
         u {
@@ -285,10 +285,10 @@
         }
 
         #main>.inner {
-            --padding-horizontal: 3rem;
-            --padding-vertical: 3rem;
-            --spacing: 0.75rem;
-            --width: 40rem;
+            --padding-horizontal: 12rem;
+            --padding-vertical: 4.625rem;
+            --spacing: 1.875rem;
+            --width: 100vw;
             border-radius: var(--border-radius-tl) var(--border-radius-tr) var(--border-radius-br) var(--border-radius-bl);
             max-width: 100%;
             position: relative;
@@ -393,11 +393,20 @@
         }
 
         #image01 .frame {
-            width: 26.5rem;
+            width: 4.75rem;
             transition: none;
         }
 
         #image01 .frame img {
+            transition: none;
+        }
+
+        #image02 .frame {
+            width: 20.375rem;
+            transition: none;
+        }
+
+        #image02 .frame img {
             transition: none;
         }
 
@@ -440,31 +449,23 @@
             -webkit-text-fill-color: currentcolor;
         }
 
-        #text01:not(:first-child) {
-            margin-top: 4.625rem !important;
-        }
-
-        #text01:not(:last-child) {
-            margin-bottom: 4.625rem !important;
-        }
-
-        #text01 {
+        #text02 {
             color: #FFFFFF;
-            font-family: 'Alata', sans-serif;
-            font-size: 1.125em;
-            line-height: 1.5;
+            font-family: 'Dela Gothic One', cursive;
+            font-size: 0.875em;
+            line-height: 0.75;
             font-weight: 400;
         }
 
-        #text01 a {
+        #text02 a {
             text-decoration: underline;
         }
 
-        #text01 a:hover {
+        #text02 a:hover {
             text-decoration: none;
         }
 
-        #text01 span.p:nth-child(n + 2) {
+        #text02 span.p:nth-child(n + 2) {
             margin-top: 1rem;
         }
 
@@ -496,46 +497,17 @@
             margin-top: 1rem;
         }
 
-        hr {
-            border: 0;
-            padding: 0;
-            position: relative;
-            width: 100%;
-        }
-
-        hr:before {
-            content: '';
-            display: inline-block;
-            max-width: 100%;
-            vertical-align: middle;
-        }
-
-        #divider01:not(:first-child) {
-            margin-top: 10.75rem !important;
-        }
-
-        #divider01:not(:last-child) {
-            margin-bottom: 10.75rem !important;
-        }
-
-        #divider01:before {
-            width: 100%;
-            border-top: solid 1px #000000;
-            height: 1px;
-            margin-top: -0.5px;
-        }
-
         @media (max-width: 1920px) {}
 
         @media (max-width: 1680px) {
             html {
-                font-size: 13pt;
+                font-size: 15pt;
             }
         }
 
         @media (max-width: 1280px) {
             html {
-                font-size: 13pt;
+                font-size: 15pt;
             }
         }
 
@@ -543,38 +515,34 @@
 
         @media (max-width: 980px) {
             html {
-                font-size: 11pt;
+                font-size: 13pt;
             }
         }
 
         @media (max-width: 736px) {
             html {
-                font-size: 11pt;
+                font-size: 13pt;
             }
 
             #main>.inner {
                 --padding-horizontal: 2rem;
-                --padding-vertical: 3rem;
-                --spacing: 0.75rem;
+                --padding-vertical: 3.5rem;
+                --spacing: 1.875rem;
             }
 
             #image01 .frame {
-                width: 26.5rem;
+                width: 4.75rem;
             }
 
-            #text01:not(:first-child) {
-                margin-top: 2.625rem !important;
+            #image02 .frame {
+                width: 20.375rem;
             }
 
-            #text01:not(:last-child) {
-                margin-bottom: 2.625rem !important;
-            }
-
-            #text01 {
+            #text02 {
                 letter-spacing: 0rem;
                 width: 100%;
-                font-size: 1.125em;
-                line-height: 1.5;
+                font-size: 0.875em;
+                line-height: 0.75;
             }
 
             #text03:not(:first-child) {
@@ -591,31 +559,23 @@
                 font-size: 0.5em;
                 line-height: 0.75;
             }
-
-            #divider01:not(:first-child) {
-                margin-top: 2rem !important;
-            }
-
-            #divider01:not(:last-child) {
-                margin-bottom: 2rem !important;
-            }
         }
 
         @media (max-width: 480px) {
             #main>.inner {
-                --spacing: 0.65625rem;
+                --spacing: 1.640625rem;
             }
         }
 
         @media (max-width: 360px) {
             #main>.inner {
                 --padding-horizontal: 1.5rem;
-                --padding-vertical: 2.25rem;
-                --spacing: 0.5625rem;
+                --padding-vertical: 2.625rem;
+                --spacing: 1.40625rem;
             }
 
-            #text01 {
-                font-size: 1.125em;
+            #text02 {
+                font-size: 0.875em;
             }
 
             #text03 {
@@ -642,10 +602,10 @@
     <div id="wrapper">
         <div id="main">
             <div class="inner">
-                <div id="image01" class="image"><span class="frame"><img src="https://ewjwnfk.carrd.co/assets/images/image01.jpg?v=6b410759" alt="" /></span></div>
-                <h1 id="text01">Under construction.</h1>
-                <hr id="divider01" class="full screen">
-                <p id="text03">© 2022 Mono Studios, LTD.</p>
+                <div id="image01" class="image"><span class="frame"><img src="images/images-image01.jpg" alt=""></span></div>
+                <div id="image02" class="image"><span class="frame"><img src="images/images-image02.png" alt=""></span></div>
+                <h1 id="text02">PREMERING 2024 ONLY ON YOUTUBE</h1>
+                <p id="text03">&copy; 2022 Mono Studios, LTD.</p>
             </div>
         </div>
     </div>
@@ -1385,6 +1345,14 @@
                 },
             };
             onvisible.add('#image01', {
+                style: 'focus-image',
+                speed: 1000,
+                intensity: 10,
+                delay: 875,
+                staggerOrder: '',
+                replay: false
+            });
+            onvisible.add('#image02', {
                 style: 'focus-image',
                 speed: 1000,
                 intensity: 10,

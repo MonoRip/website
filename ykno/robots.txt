@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://ykno.uwu.ai/sitemap.xml
